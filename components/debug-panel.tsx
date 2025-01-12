@@ -8,7 +8,7 @@ interface DebugPanelProps {
 function formatGameState(state: GameState) {
   const trumpSuits = ["♥️", "♦️", "♣️", "♠️"];
   const players = state.Users.map((user, i) => ({
-    name: (user as any).player?.name || `Player ${i}`,
+    name: `Player ${i}`,
     cards: user.HandCards.filter((c) => c !== "0"),
     bet: user.Bet,
   }));

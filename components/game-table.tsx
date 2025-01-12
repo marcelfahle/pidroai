@@ -182,7 +182,7 @@ export default function GameTable() {
     if (currentPlayer.player.type === "ai") {
       handlePlayCard(gameState.CurrentTurn)(currentPlayer.HandCards[0]);
     }
-  }, [gameState.CurrentTurn]);
+  }, [gameState.CurrentTurn, gameState.Users, handlePlayCard]);
 
   const suitSymbols = ["♥️", "♦️", "♣️", "♠️"];
   const suitColors = [
