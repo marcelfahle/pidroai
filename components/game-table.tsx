@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { PlayerHand } from "@/components/player-hand";
-import { PlayedCards } from "@/components/played-cards";
 import { DebugPanel } from "@/components/debug-panel";
 import type { GameState, PlayedCard, GameLog } from "@/types/game-state";
 import type {

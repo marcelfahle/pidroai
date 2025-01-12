@@ -1,5 +1,4 @@
 import GameTable from "@/components/game-table";
-import Image from "next/image";
 
 export default function Home() {
   return (
